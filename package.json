@@ -1,0 +1,23 @@
+{
+  "name": "aws-learning-poc",
+  "version": "1.0.0",
+  "description": "Cloud-Native AWS Learning POC with Node.js, Docker, LocalStack, and PostgreSQL",
+  "private": true,
+  "scripts": {
+    "docker:up": "docker compose up --build",
+    "docker:down": "docker compose down -v",
+    "docker:logs": "docker compose logs -f"
+  },
+  "keywords": [
+    "aws",
+    "localstack",
+    "sqs",
+    "s3",
+    "docker",
+    "terraform",
+    "postgres",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC"
+}

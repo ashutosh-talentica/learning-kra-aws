@@ -1,0 +1,21 @@
+{
+  "name": "aws-poc-cdk",
+  "version": "1.0.0",
+  "description": "AWS CDK Infrastructure as Code for Cloud-Native Learning POC",
+  "bin": {
+    "aws-poc-cdk": "bin/app.js"
+  },
+  "scripts": {
+    "build": "echo 'No compile needed for JS CDK'",
+    "cdk": "cdk",
+    "synth": "cdk synth",
+    "deploy": "cdk deploy"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.170.0",
+    "constructs": "^10.4.2"
+  },
+  "devDependencies": {
+    "aws-cdk": "^2.170.0"
+  }
+}
