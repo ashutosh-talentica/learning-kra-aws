@@ -239,12 +239,3 @@ terraform apply -auto-approve
 ```
 
 ---
-
-## KRA Review Demo Script
-
-1. **Architecture Walkthrough**: Present the reverse proxy (ALB), API (ECS), PostgreSQL (RDS), and LocalStack (SQS/S3) mapping.
-2. **Synchronous Flow**: Call `POST /api/tasks` and verify task persisted in PostgreSQL.
-3. **Asynchronous Flow**: Show SQS event consumed and verified in S3.
-4. **Resilience Demonstration**: Stop worker, create task, restart worker, demonstrate zero data loss.
-5. **Infrastructure as Code**: Demonstrate Terraform resource definitions.
-6. **Production Evolution**: Walk through `docs/aws-mapping.md` explaining Multi-AZ RDS, IAM Task Roles, Secrets Manager, and Autoscaling.
